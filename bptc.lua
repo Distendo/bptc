@@ -1,8 +1,3 @@
--- bptc , or big senip script.
--- made by uu and alkek (thanks for alkek for main model , i just make the script for it)
--- NO ONE ELSE MADE IT!
--- made for AEX.
-
 local RunService = game:GetService("RunService")
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
