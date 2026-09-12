@@ -1,6 +1,6 @@
 # BPTC (AEX edition)
 
-made by UU
+made by UU x Alkek
 
 ### bptc.lua is executor-friendly
 ### bptc-ss.lua is serverside-friendly
