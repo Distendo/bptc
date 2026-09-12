@@ -1,3 +1,7 @@
+-- bptc 
+-- made by uu and alkek (thanks for alkek for main model , i just make the script for it)
+-- made for AEX/executors
+
 local RunService = game:GetService("RunService")
 local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
