@@ -3,7 +3,11 @@ local Players = game:GetService("Players")
 local TweenService = game:GetService("TweenService")
 local UserInputService = game:GetService("UserInputService")
 
-local LocalPlayer = Players.LocalPlayer or Players:GetPlayers()[1]
+local LocalPlayer = Players.LocalPlayer
+while not LocalPlayer do
+	Players.PlayerAdded:Wait()
+	LocalPlayer = Players.LocalPlayer or Players:GetPlayers()[1]
+end
 
 local modes = {"anchored", "2 parts anchored", "no part anchored"}
 local currentModeIndex = 2
